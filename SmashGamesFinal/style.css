@@ -1,0 +1,243 @@
+
+body{
+    background-color: #003638;
+}
+
+h1{
+    margin-top: 2%;
+    margin-bottom: -2%;
+    text-align: center;
+    font-size: x-large;
+    color: #FFFFFF
+       
+}
+
+.body{
+    background-color: #F2A183;
+}
+
+.header {
+    float: inline-start;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 20pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border: black;
+    background: #F2A183;
+    color: #003638;
+    font-size: small;
+  }
+
+.footer{
+    float: inline-start;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10pt;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    columns: center;
+    border: black;
+    background: #F2A183;
+    color: #003638;
+    font-size: small;
+    max-width: 100%;
+}
+
+.textbanner{
+    background-color: #F2A183;
+    align-items: center;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+.img-studio{
+    image-orientation: center;
+    width: 400px;height: 300px;
+    margin: 0%;    
+    padding-left: 27%;
+    padding-top: -50%;
+
+}
+.img-logo {
+    image-orientation: auto;
+    width: 175px;height: 175px;
+    margin: 0%;    
+    padding-left: 41%;
+    padding-top: -40%;
+
+}
+.img-big{
+    image-orientation: auto;
+    width: 100%;height: auto;
+    margin: 0%;    
+    padding-top: 5%;
+}
+
+.slogan{
+     
+    font-size: small;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+
+}
+/* Add a black background color to the top navigation */
+.topnav  {
+    padding-top: 0%;
+    background-color: #F2A183;
+    overflow: hidden;
+    
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #F2A183;
+    color:#FFFFFF;
+  }
+  
+    .topnav a.active {
+    background-color: #F2A183;
+    color: #FFFFFF;}
+
+
+.deck {
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    gap: 2%; 
+    width: auto;
+    margin: 5%;
+}
+
+.card {
+    grid-row: auto;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    border: 1px solid #F2A183;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    font-size: small;
+    color:#FFFFFF;
+}
+
+.card-title{
+    font-size: large;
+    font-style: bold;
+}
+.card-img-top {
+    column-width: auto;
+    width: 100%;
+}
+
+.card-body{
+    float: left;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.button {  
+    border: none;
+    color: #003638;
+    padding: 4px 4px;
+    text-align: center;
+    font-size: 10px;
+    margin: 4px 4px;
+    border-radius: 2px;
+    float: bottom;
+}
+  
+      button{
+        background-color: #F2A183;
+      }
+
+.card-end{
+    float: left;
+    font-size: smaller;
+    font-style: normal;
+    color:#FFFFFF;
+    padding-top: -1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 60%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #FFFFFF; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: #003638;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #FFFFFF;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    float: left;
+    max-width: 100%;
+    margin-top: 25%;
+    margin-right: 30%;
+    border-radius: 5px;
+    background-color: #F2A183;
+    padding: 20px;
+  }
+  
+.info{
+  background-color: #F2A183;
+  max-width: 100%;
+  
+
+}
